@@ -24,7 +24,8 @@ The project comprises of:
   - [Quick Start](#quick-start)
     - [Build the on-chain program](#build-the-on-chain-program)
     - [Run the client](#run-the-client)
-  - [Signatures on the testnet](#signatures-on-the-testnet)
+  - [Restarting](#restarting)
+  - [Example signatures on the testnet](#example-signatures-on-the-testnet)
 
 
 ## Quick Start
@@ -66,8 +67,16 @@ $ solana program deploy dist/program/helloworld.so
 $ npm run create-group | add-user | empty-pool | remove-groups
 ```
 
+## Restarting
 
-## Signatures on the testnet
+```
+$ npm run clean
+$ npm run build:program-c
+$ solana -C wallet/config.yml program deploy dist/program/helloworld.so
+```
+
+
+## Example signatures on the testnet
 
 **create-group**
 ```
