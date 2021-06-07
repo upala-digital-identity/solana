@@ -2,7 +2,6 @@
  * @brief C-based Helloworld BPF program
  */
 #include <solana_sdk.h>
-#include "/home/boris/.local/share/solana/install/releases/1.6.10/solana-release/bin/sdk/bpf/c/inc/solana_sdk.h"
 
 //#define DEBUG_INSTRUCTION_DATA
 
