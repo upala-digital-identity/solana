@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Hello world on Solana+Upala
+# Solana implementation of Upala protocol 
 
 This project demonstrates how to use the `Upala` to
 interact with programs on the Solana blockchain.
