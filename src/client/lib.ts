@@ -41,8 +41,8 @@ enum UpalaInstution
  */
 let connection: Connection;
 
-const WALLET_PATH = '/home/boris/workspace/solana/example-helloworld/wallet';
-const PROGRAM_KEY_FILE = '/home/boris/workspace/solana/example-helloworld/dist/program/helloworld-keypair.json';
+const WALLET_PATH = './wallet';
+const PROGRAM_KEY_FILE = './dist/program/helloworld-keypair.json';
 
 const UPALA = path.join(WALLET_PATH, 'upala');
 const MANAGER_PATH = path.join(UPALA, 'manager.json');
