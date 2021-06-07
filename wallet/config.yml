@@ -1,7 +1,7 @@
 ---
 json_rpc_url: "https://api.testnet.solana.com"
 websocket_url: ""
-keypair_path: main.json
+keypair_path: wallet/main.json
 address_labels:
   "11111111111111111111111111111111": System Program
 commitment: confirmed
